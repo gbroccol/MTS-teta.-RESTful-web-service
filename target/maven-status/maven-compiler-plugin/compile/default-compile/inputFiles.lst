@@ -1,0 +1,8 @@
+/Users/gbroccol/Desktop/demo 3/src/main/java/com/example/demo/controller/CourseController.java
+/Users/gbroccol/Desktop/demo 3/src/main/java/com/example/demo/dao/CourseRepository.java
+/Users/gbroccol/Desktop/demo 3/src/main/java/com/example/demo/domain/Course.java
+/Users/gbroccol/Desktop/demo 3/src/main/java/com/example/demo/DemoApplication.java
+/Users/gbroccol/Desktop/demo 3/src/main/java/com/example/demo/config/StatisticsConfig.java
+/Users/gbroccol/Desktop/demo 3/src/main/java/com/example/demo/service/StatisticsCounter.java
+/Users/gbroccol/Desktop/demo 3/src/main/java/com/example/demo/dao/MemoryBasedCourseRepository.java
+/Users/gbroccol/Desktop/demo 3/src/main/java/com/example/demo/service/CourseLister.java

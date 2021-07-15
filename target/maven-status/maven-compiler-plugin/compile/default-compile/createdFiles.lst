@@ -1,0 +1,8 @@
+com/example/demo/dao/CourseRepository.class
+com/example/demo/DemoApplication.class
+com/example/demo/domain/Course.class
+com/example/demo/config/StatisticsConfig.class
+com/example/demo/controller/CourseController.class
+com/example/demo/service/StatisticsCounter.class
+com/example/demo/dao/MemoryBasedCourseRepository.class
+com/example/demo/service/CourseLister.class
