@@ -1,3 +1,6 @@
+
+// модель
+
 package com.example.demo.dao;
 
 import com.example.demo.domain.Course;

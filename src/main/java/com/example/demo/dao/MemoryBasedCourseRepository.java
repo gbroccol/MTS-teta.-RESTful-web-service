@@ -23,6 +23,12 @@ public class MemoryBasedCourseRepository implements CourseRepository {
         save(new Course(null, "Вася", "Основы программирования на джава"));
         save(new Course(null, "Вася", "Базы данных для самых маленьких"));
         save(new Course(null, "Петя", "Скучный маркетинг"));
+        save(new Course(null, "Вася", "Основы программирования на джава"));
+        save(new Course(null, "Вася", "Базы данных для самых маленьких"));
+        save(new Course(null, "Петя", "Скучный маркетинг"));
+        save(new Course(null, "Вася", "Основы программирования на джава"));
+        save(new Course(null, "Вася", "Базы данных для самых маленьких"));
+        save(new Course(null, "Петя", "Скучный маркетинг"));
     }
 
     @Override

@@ -1,9 +1,21 @@
 package com.example.demo.domain;
 
+
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+
 public class Course {
+
     private Long id;
+
+//    @NotNull
+    @NotBlank(message = "Course author has to be filled")
     private String author;
+
+    @NotBlank(message = "Course title has to be filled")
     private String title;
+
+    private String description;
 
     public Course() {
     }
@@ -36,5 +48,13 @@ public class Course {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

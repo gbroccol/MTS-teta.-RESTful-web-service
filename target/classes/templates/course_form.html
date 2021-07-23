@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <title>Courses</title>
+
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+
+<header th:replace="fragments/header :: header"></header>
+
+<body class="create-course">
+
+<div class="page-photo">
+<!--    <h1>Создать курс</h1>-->
+    <img th:src="@{../images/backgrounds/createNewCourse.jpg}" alt=""/>
+</div>
+
+<div class="container">
+    <form th:object="${course}" th:method="post" th:action="@{/course}">
+        <input type="hidden" th:field="*{id}">
+
+        <div class="field">
+            <label for="title">Название курса</label>
+            <input type="text" id="title" th:field="*{title}">
+             <small class="validation-error" th:if="${#fields.hasErrors('title')}" th:errors="*{title}">Course title has to be filled</small>
+        </div>
+
+        <div class="field">
+            <label for="author">Автор</label>
+            <input type="text" id="author" th:field="*{author}">
+             <small class="validation-error" th:if="${#fields.hasErrors('author')}" th:errors="*{author}">Course author has to be filled</small>
+        </div>
+
+        <p></p><input name="dzen" type="radio" value="nedzen"> Для начинающих </p>
+        <p><input name="dzen" type="radio" value="dzen"> Для продолжающих </p>
+        <p><input name="dzen" type="radio" value="pdzen" checked> Для продвинутых </p>
+
+        <div class="form-button">
+            <button type="submit">Создать</button>
+        </div>
+    </form>
+</div>
+
+</body>
+
+<footer th:replace="fragments/footer :: footer"></footer>
+
+</html>

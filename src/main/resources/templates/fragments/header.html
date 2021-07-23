@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<header th:fragment="header">
+
+    <a href="/" class="logo">
+        My coursera
+    </a>
+
+    <nav>
+        <li> <a th:href="@{/course}"> Все курсы</a> </li>
+        <li> <a href="#">Профиль</a> </li>
+        <!-- <li> <button> Вход  </button> </li> -->
+        <!-- <li> <button> Регистрация </button> </li> -->
+
+<!--        <span th:classappend="${activePage == 'courses'} ? active">-->
+<!--                <a th:href="@{/course}">Courses</a>-->
+<!--            </span>-->
+<!--        <span th:classappend="${activePage == 'users'} ? active">-->
+<!--                <a th:href="@{/user}">User</a>-->
+<!--            </span>-->
+
+        <li> <a th:href="@{/course/new}"> Создать курс </a> </li>
+
+    </nav>
+
+    <form>
+<!--        <label for="titlePrefix" class="inline">Найти</label>-->
+        <input type="text" id="titlePrefix" class="inline" th:value="${param.titlePrefix}" name="titlePrefix" />
+        <button class="active"> Поиск </button>
+    </form>
+
+
+</header>
+</html>
+
