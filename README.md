@@ -67,8 +67,10 @@
    * ["Чистая архитектура" Роберт Мартин](https://vk.com/doc44301783_469642449?hash=2e7f405cf8d7e96a43&dl=5af840b9982acd79a9)
    * ["Информационная архитектура"]()
    * ["Архитектура программного обеспечения на практике"](https://www.ozon.ru/context/detail/id/2456415/)
-2. Spring
-3. MVC
-4. IDE
+2. Верстка
+  * [fontawesome](https://fontawesome.com/)
+3. Spring
+4. MVC
+5. IDE
    * [Антон Архипов — Эффективная работа с IDE(A)](https://www.youtube.com/watch?v=_rj7dx6c5R8)
 
