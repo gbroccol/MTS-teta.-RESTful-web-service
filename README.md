@@ -4,17 +4,19 @@
 1. http://127.0.0.1:8080/course
 
 ## Технический стек:
-- [x] Java
-- [x] **Spring** (main framework)
-<!-- - [x] **Spring Core**
-- [x] **Spring Boot** -->
-- [x] **MVC** (http)
-- [ ] **Spring security** - авторизация и аутентификация
-- [ ] **Hibernate** (ORM)
 - [x] **HTML, CSS, SCSS**
-- [ ] **PostgreSQL** (database)
+- [x] **Java**
+- [x] **Spring**
+- [x] **MVC** (http)
+- [ ] **PostgreSQL**
+- [ ] **Hibernate/JPA** - взаимодействие с БД
+- [ ] **Spring security** - авторизация и аутентификация
 - [ ] **minIO** для хранения файлов видео
 - [ ] **clickhouse** (собирать и логировать статистику по движениям по сайту)
+
+<!-- - [x] **Spring Core**
+- [x] **Spring Boot** -->
+
 
 ## Цель
 разработать образовательную платформу (как, например, Coursera, edX, Udacity, etc.)
