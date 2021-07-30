@@ -5,20 +5,12 @@
 
 ## :bulb: Технический стек:
 - [x] Java
-- [x] Spring Framework
+- [x] Spring Framework 
 - [x] Spring Boot
-- [x] Spring Data
+- [x] Spring Data JPA (+ Hibernate, PostgreSQL)
 - [ ] Spring Security
-- [x] 
-- [ ] 
-- [ ] **HTML, CSS, SCSS**
-- [x] **Thymeleaf**
-- [x] 
-- [x] 
-<!-- - [x] **MVC** - обработка HTTP запросов -->
-- [x] **PostgreSQL**
-- [x] **Spring Data JPA + Hibernate** - взаимодействие с БД
-- [ ] **Spring security** - авторизация и аутентификация
+- [x] HTML, CSS, SCSS
+- [x] Thymeleaf
 - [ ] **minIO** для хранения файлов видео
 - [ ] **clickhouse** (собирать и логировать статистику по движениям по сайту)
 
