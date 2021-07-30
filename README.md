@@ -85,7 +85,11 @@
    * [Dependency_injection](https://en.wikipedia.org/wiki/Dependency_injection)
 3. Spring Boot
 4. Spring Data
-5. Spring Security
-6. IDE
+5. SQL
+   * [Руководство по проектированию реляционных баз данных (ключи, индексы, нормализация)](https://habr.com/ru/post/193136/)
+   * [sqlzoo.net](https://sqlzoo.net/)
+   * [learndb.ru](https://learndb.ru/courses/task/6)
+6. Spring Security
+7. IDE
    * [Антон Архипов — Эффективная работа с IDE(A)](https://www.youtube.com/watch?v=_rj7dx6c5R8)
 
