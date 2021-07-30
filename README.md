@@ -81,6 +81,7 @@
    * [Spring Framework (Аннотации)](https://ru.wikibooks.org/wiki/Spring_Framework_Guide)
    * [Spring MVC — основные принципы](https://habr.com/ru/post/336816/)
    * [Что такое Spring Framework? От внедрения зависимостей до Web MVC](https://habr.com/ru/post/490586/)
+   * [Spring Framework](https://ru.wikipedia.org/wiki/Spring_Framework)
    * [Dependency_injection](https://en.wikipedia.org/wiki/Dependency_injection)
 3. Spring Boot
 4. Spring Data
