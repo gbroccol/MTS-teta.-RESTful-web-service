@@ -1,7 +1,7 @@
 # RESTful-Web-Service
 
-## Запуск:
-1. http://127.0.0.1:8080/course
+<!-- ## Запуск:
+1. http://127.0.0.1:8080/course -->
 
 ## Технический стек:
 - [x] **HTML, CSS, SCSS**
