@@ -4,10 +4,17 @@
 1. http://127.0.0.1:8080/course -->
 
 ## :bulb: Технический стек:
-- [x] **HTML, CSS, SCSS**
-- [x] **Thymeleaf** - создание удобного способа шаблонизации
-- [x] **Java**
-- [x] **Spring**
+- [x] Java
+- [x] Spring Framework
+- [x] Spring Boot
+- [x] Spring Data
+- [ ] Spring Security
+- [x] 
+- [ ] 
+- [ ] **HTML, CSS, SCSS**
+- [x] **Thymeleaf**
+- [x] 
+- [x] 
 <!-- - [x] **MVC** - обработка HTTP запросов -->
 - [x] **PostgreSQL**
 - [x] **Spring Data JPA + Hibernate** - взаимодействие с БД
