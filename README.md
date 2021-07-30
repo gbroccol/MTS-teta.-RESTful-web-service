@@ -90,7 +90,12 @@
    * [sqlzoo.net](https://sqlzoo.net/)
    * [learndb.ru](https://learndb.ru/courses/task/6)
    * [drawsql.app](https://drawsql.app/)
+   * [Практическое владение языком SQL](https://sql-ex.ru/)
+   * [DDL (SELECT) 0/156](https://sql-ex.ru/learn_exercises.php?LN=1)
+   * [DML (INSERT, UPDATE, DELETE и MERGE) 0/44](https://sql-ex.ru/dmlexercises.php?N=1)
 6. Spring Security
+   * [Криптографические хеш-функции](https://ru.wikipedia.org/wiki/%D0%A5%D0%B5%D1%88-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F#%D0%9A%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%85%D0%B5%D1%88-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8)
+   * 
 7. IDE
    * [Антон Архипов — Эффективная работа с IDE(A)](https://www.youtube.com/watch?v=_rj7dx6c5R8)
 
