@@ -83,6 +83,9 @@
    * [Spring MVC — основные принципы](https://habr.com/ru/post/336816/)
    * [Что такое Spring Framework? От внедрения зависимостей до Web MVC](https://habr.com/ru/post/490586/)
    * [Dependency_injection](https://en.wikipedia.org/wiki/Dependency_injection)
-3. IDE
+3. Spring Boot
+4. Spring Data
+5. Spring Security
+6. IDE
    * [Антон Архипов — Эффективная работа с IDE(A)](https://www.youtube.com/watch?v=_rj7dx6c5R8)
 
