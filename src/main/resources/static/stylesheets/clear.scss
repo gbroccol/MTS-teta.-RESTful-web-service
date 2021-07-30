@@ -1,0 +1,120 @@
+@import "default_variables";
+
+* { margin: 0; padding: 0; text-decoration: none; font-size: 1em; outline: none; }
+code, kbd, samp, pre, tt, var, textarea, input, select, isindex, listing, xmp, plaintext { 
+font: inherit; font-size: 1em; white-space: normal; }
+dfn, i, cite, var, address, em { font-style: normal; }
+// th, b, strong, h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+a, img, a img, iframe, form, fieldset, abbr, acronym, object, applet, table {border: none;}
+table { border-collapse: collapse; border-spacing: 0; }
+caption, th, td, center { text-align: left; vertical-align: top; }
+body { line-height: 1; background: white; color: black; }
+q { quotes: "" ""; }
+ul, ol, dir, menu { list-style: none; }
+sub, sup { vertical-align: baseline; }
+a { color: inherit; }
+hr { display: none; } /* we don't need a visual hr in layout */
+/* disables some nasty font attributes in standard browsers */
+font { color: inherit !important; font: inherit !important; color: inherit !important; } 
+marquee { overflow: inherit !important; -moz-binding: none; }
+blink { text-decoration: none; }
+nobr { white-space: normal; }
+
+
+
+/* links */
+
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 70px;
+  color: #fafafa;
+  text-shadow: 1px 1px 2px black, 0 0 1em; 
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3em;
+  color: #fafafa;
+  text-shadow: 1px 1px 2px black; 
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 2em;
+  color: #3e3e3e;
+  // text-shadow: 1px 1px 2px black;
+}
+
+h4 {
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  color: #6f6f6f;
+  font-size: 1.5em;
+}
+
+h5 {
+  color: #808080;
+  font-weight: 100;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 15px 25px;
+  border: 2px solid $COLOR_BTN_ACTIVE;
+  font-weight: bold;
+  transition: border-radius 0.4s ease-in;
+  font-size: 16px;
+  color: #262626;
+  margin-bottom: 20px;
+}
+  
+.active {
+  background-color: $COLOR_BTN_ACTIVE;
+}
+
+.active:hover {
+  background-color: $COLOR_BTN_ACTIVE_HOVER;
+}
+
+.extra {
+  background-color: $COLOR_BTN_EXTRA;
+}
+
+.extra:hover {
+  background-color: $COLOR_BTN_EXTRA_HOVER;
+}
+
+.btn-like-link {
+  border-radius: 0px;
+  padding: 0;
+  margin: 0;
+  border: 0px solid $COLOR_BTN_ACTIVE;
+  font-weight: bold;
+  transition: border-radius 0.0s ease-in;
+  font-size: 16px;
+  color: #262626;
+  background-color: white;
+}

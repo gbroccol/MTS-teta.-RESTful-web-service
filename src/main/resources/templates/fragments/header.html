@@ -3,33 +3,54 @@
 
 <header th:fragment="header">
 
-    <a href="/" class="logo">
-        My coursera
-    </a>
+    <div class="header-container">
 
-    <nav>
-        <li> <a th:href="@{/course}"> Все курсы</a> </li>
-        <li> <a href="#">Профиль</a> </li>
-        <!-- <li> <button> Вход  </button> </li> -->
-        <!-- <li> <button> Регистрация </button> </li> -->
 
-<!--        <span th:classappend="${activePage == 'courses'} ? active">-->
-<!--                <a th:href="@{/course}">Courses</a>-->
-<!--            </span>-->
-<!--        <span th:classappend="${activePage == 'users'} ? active">-->
-<!--                <a th:href="@{/user}">User</a>-->
-<!--            </span>-->
+        <a th:href="@{/}"> My coursera </a>
 
-        <li> <a th:href="@{/course/new}"> Создать курс </a> </li>
+        <nav>
+            <li>
+                <a th:href="@{/course}"> Все курсы</a>
+            </li>
 
-    </nav>
+            <!--        <span th:classappend="${activePage == 'courses'} ? active">-->
+            <!--                <a th:href="@{/course}">Courses</a>-->
+            <!--            </span>-->
+            <!--        <span th:classappend="${activePage == 'users'} ? active">-->
+            <!--                <a th:href="@{/user}">User</a>-->
+            <!--            </span>-->
 
-    <form>
-<!--        <label for="titlePrefix" class="inline">Найти</label>-->
-        <input type="text" id="titlePrefix" class="inline" th:value="${param.titlePrefix}" name="titlePrefix" />
-        <button class="active"> Поиск </button>
-    </form>
+            <li>
+                <a th:href="@{/course/new}"> Создать курс </a>
+            </li>
 
+            <img th:src="@{../images/user.png}" alt=""/>
+            <li>
+                <a th:href="@{/user}"> Мой профиль </a>
+            </li>
+
+            <li>
+                <a th:href="@{/user/courses}"> Мои курсы </a>
+            </li>
+
+            <li>
+                <a th:href="@{/login}"> Вход  </a>
+            </li>
+            <li>
+                <a th:href="@{/registration}"> Регистрация </a>
+            </li>
+            <li>
+                <a th:href="@{/}"> Выход </a>
+            </li>
+
+        </nav>
+
+        <form class="search" th:method="GET" th:action="@{/}">
+        <!--        <label for="titlePrefix" class="inline">Найти</label>-->
+                <input type="text" id="titlePrefix" class="inline" th:value="${param.titlePrefix}" name="titlePrefix" />
+                <button class="active"> Поиск </button>
+            </form>
+    </div>
 
 </header>
 </html>

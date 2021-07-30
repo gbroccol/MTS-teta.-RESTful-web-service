@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="fragments/head :: head"></head>
+<header th:replace="fragments/header :: header"></header>
+
+
+<body>
+
+<div class="main-photo">
+    <div class="centered">
+        <div class="personal-info">
+            <h2 th:text="${message}"> ... </h2>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+<div class="user-profile">
+
+
+
+    <form class="user-profile-form" th:object="${user}" th:method="POST" th:action="@{/user}">
+        <input type="hidden" th:field="*{id}">
+
+        <div class="field">
+            <label for="username">Ваше имя </label>
+            <input type="text" id="username" th:field="*{username}">
+            <small class="validation-error" th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Error</small>
+        </div>
+
+        <div class="field">
+            <label for="surname">Ваша фамилия </label>
+            <input type="text" id="surname" th:field="*{surname}">
+            <small class="validation-error" th:if="${#fields.hasErrors('surname')}" th:errors="*{surname}">Error</small>
+            <h5> Ваше официальное имя, используемое в сертификатах </h5>
+        </div>
+
+<!--        <div class="field">-->
+<!--            <label for="surname">Ваша фамилия </label>-->
+<!--            &lt;!&ndash;            th:field="*{name}"&ndash;&gt;-->
+<!--            <input type="text" id="name">-->
+<!--            &lt;!&ndash;            <small class="validation-error" th:if="${#fields.hasErrors('title')}" th:errors="*{title}">Course title has to be filled</small>&ndash;&gt;-->
+<!--        </div>-->
+
+<!--        <div class="field">-->
+<!--            <label for="author">Автор</label>-->
+<!--            <input type="text" id="author" th:field="*{author}">-->
+<!--            <small class="validation-error" th:if="${#fields.hasErrors('author')}" th:errors="*{author}">Course author has to be filled</small>-->
+<!--        </div>-->
+
+
+
+
+<!--        <div class="field">-->
+<!--            <label for="description">Краткая биография <br> (до 255 символов)</label>-->
+<!--            <textarea rows="10" type="text" id="description" th:field="*{description}"></textarea>-->
+<!--            &lt;!&ndash;            <input >&ndash;&gt;-->
+<!--        </div>-->
+        <div class="form-button">
+            <button class="active" type="submit">Сохранить</button>
+        </div>
+    </form>
+
+</div>
+
+</div>
+
+</body>
+
+<footer th:replace="fragments/footer :: footer"></footer>
+
+</html>

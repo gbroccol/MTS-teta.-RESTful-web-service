@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="fragments/head :: head"></head>
+<header th:replace="fragments/header :: header"></header>
+
+<!--<body>-->
+<!--    <table>-->
+<!--        <thead>-->
+<!--        <tr>-->
+<!--            <th>Id</th>-->
+<!--            <th>Title</th>-->
+<!--            <th>Author</th>-->
+<!--            <th>Action</th>-->
+<!--        </tr>-->
+<!--        </thead>-->
+<!--        <tbody>-->
+<!--        <tr th:each="course : ${courses}">-->
+<!--            <td th:text="${course.id}">1</td>-->
+<!--            <td>-->
+<!--                <a th:text="${course.title}" th:href="@{/course/{id}(id = ${course.id})}">Course name</a>-->
+<!--            </td>-->
+<!--            <td th:text="${course.author}">Course author</td>-->
+<!--            <td>-->
+<!--                <form th:method="delete" th:action="@{/course/{id}(id = ${course.id})}">-->
+<!--                    <button type="submit">Delete</button>-->
+<!--                </form>-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--        </tbody>-->
+<!--    </table>-->
+<!--</body>-->
+
+
+
+
+<body class="all-courses">
+
+
+<div class="main-photo">
+    <div class="centered">
+        <div class="personal-info">
+            <h2> Список доступных курсов </h2>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+<!--    <h3> Список доступных курсов </h3>-->
+
+    <div class="courses-list">
+
+        <section class="sort">
+
+            <li> <a th:href="@{course}"> Все </a> </li>
+            <li> Дисциплины </li>
+            <li> Сложность </li>
+            <p></p><input name="dzen" type="radio" value="nedzen"> Для начинающих </p>
+            <p><input name="dzen" type="radio" value="dzen"> Для продолжающих </p>
+            <p><input name="dzen" type="radio" value="pdzen" checked> Для продвинутых </p>
+        </section>
+
+        <section class="list">
+
+            <div class="course" th:each="course : ${courses}">
+                <a th:href="@{/course/{id}/edit(id = ${course.id})}">
+
+                    <img th:src="@{../images/java.jpg}" alt=""/>
+
+                    <span class="course-name" th:text="${course.title}"> Название курса </span>
+                    <br>
+                    <br>
+                    Автор: <span th:text="${course.author}"> Автор курса </span>
+                    <br>
+                    <br>
+                    <br>
+                    ★ ★ ★ ★ ★ 5 <h5> 63 человека прошли курс </h5>
+
+                </a>
+            </div>
+
+            <div th:if="${courses.empty}" >
+                Курсов нет
+            </div>
+
+        </section>
+    </div>
+
+</div>
+
+<!--<body>-->
+<!--<table>-->
+<!--    <thead>-->
+<!--    <tr>-->
+<!--        <th>Id</th>-->
+<!--        <th>Title</th>-->
+<!--        <th>Author</th>-->
+<!--        <th>Action</th>-->
+<!--    </tr>-->
+<!--    </thead>-->
+<!--    <tbody>-->
+<!--    <tr th:each="course : ${courses}">-->
+<!--        <td th:text="${course.id}">1</td>-->
+<!--        <td>-->
+<!--            <a th:text="${course.title}" th:href="@{/course/{id}(id = ${course.id})}">Course name</a>-->
+<!--        </td>-->
+<!--        <td th:text="${course.author}">Course author</td>-->
+<!--        <td>-->
+<!--            <form th:method="delete" th:action="@{/course/{id}(id = ${course.id})}">-->
+<!--                <button type="submit">Delete</button>-->
+<!--            </form>-->
+<!--        </td>-->
+<!--    </tr>-->
+<!--    </tbody>-->
+<!--</table>-->
+<!--</body>-->
+
+
+</body>
+
+
+
+
+
+<footer th:replace="fragments/footer :: footer"></footer>
+
+</html>
+

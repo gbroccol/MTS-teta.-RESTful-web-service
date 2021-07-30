@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="fragments/head :: head"></head>
+<header th:replace="fragments/header :: header"></header>
+
+
+<body>
+
+
+<div class="main-photo">
+
+    <div class="centered">
+        <div class="personal-info">
+            <h2 th:text="${user.username}"> Имя </h2>
+            <h2 th:text="${user.surname}"> Фамилия </h2>
+
+
+            <ul class="list-inline list-unstyled">
+                <li>
+                    <h4>... курсов</h4>
+<!--                    <br>-->
+                    <span>вы прошли</span>
+                </li>
+                <li>
+                    <h4>на ... курса</h4>
+<!--                    <br>-->
+                    <span>вы записаны</span>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="user-courses">
+
+
+    <h3>
+        Всего 94 курса
+    </h3>
+
+
+
+
+    <ul class="nav nav-tabs profile-tabs" role="tablist">
+
+        <li><a href="#"><span> Все </span> </a></li>
+        <li><a href="#"><span> Текущие </span> </a></li>
+        <li><a href="#"><span> Завершённые </span> </a></li>
+
+    </ul>
+
+    <div class="user-list-courses">
+
+        <div class="user-course" th:each="course : ${courses}">
+            <div class="user-course-photo">
+                <img th:src="@{../images/java.jpg}" alt=""/>
+            </div>
+            <div class="user-course-info">
+                <div class="user-course-action">
+                    <button class="active"> Продолжить </button>
+
+
+                    <form class="delete" th:method="delete" th:action="@{/user/course/{id}(id = ${course.id})}">
+                        <button class="extra" type="submit">Покинуть курс</button>
+                    </form>
+
+<!--                    <button class="extra"> Покинуть курс </button>-->
+                </div>
+                <div class="user-course-title">
+                    <h3 th:text="${course.title}"> Монолитная архитектура на Java </h3>
+                    <h4 th:text="${course.author}"> МТС.Тета </h4>
+                </div>
+                <div class="user-course-extra-info">
+                    ★ ★ ★ ★ ★ 5 <h5> 63 человека прошли курс </h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+</body>
+
+<footer th:replace="fragments/footer :: footer"></footer>
+
+</html>
