@@ -8,7 +8,7 @@
 - [x] **Thymeleaf** - создание удобного способа шаблонизации
 - [x] **Java**
 - [x] **Spring**
-- [x] **MVC** - обработка HTTP запросов
+<!-- - [x] **MVC** - обработка HTTP запросов -->
 - [x] **PostgreSQL**
 - [x] **Spring Data JPA + Hibernate** - взаимодействие с БД
 - [ ] **Spring security** - авторизация и аутентификация
@@ -78,10 +78,11 @@
    * ["Чистая архитектура" Роберт Мартин](https://vk.com/doc44301783_469642449?hash=2e7f405cf8d7e96a43&dl=5af840b9982acd79a9)
    * ["Информационная архитектура"]()
    * ["Архитектура программного обеспечения на практике"](https://www.ozon.ru/context/detail/id/2456415/)
-2. Верстка
-  * [fontawesome](https://fontawesome.com/)
-3. Spring
-4. MVC
-5. IDE
+2. Spring Framework
+   * [Spring Framework (Аннотации)](https://ru.wikibooks.org/wiki/Spring_Framework_Guide)
+   * [Spring MVC — основные принципы](https://habr.com/ru/post/336816/)
+   * [Что такое Spring Framework? От внедрения зависимостей до Web MVC](https://habr.com/ru/post/490586/)
+   * [Dependency_injection](https://en.wikipedia.org/wiki/Dependency_injection)
+3. IDE
    * [Антон Архипов — Эффективная работа с IDE(A)](https://www.youtube.com/watch?v=_rj7dx6c5R8)
 
