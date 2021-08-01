@@ -88,7 +88,7 @@
 5. SQL
    * [Руководство по проектированию реляционных баз данных (ключи, индексы, нормализация)](https://habr.com/ru/post/193136/)
    * [sqlzoo.net](https://sqlzoo.net/)
-   * [learndb.ru](https://learndb.ru/courses/task/6) решено 23/109
+   * [learndb.ru](https://learndb.ru/courses/task/6) решено 25/109
    * [drawsql.app](https://drawsql.app/)
    * [Практическое владение языком SQL](https://sql-ex.ru/)
    * [DDL (SELECT)](https://sql-ex.ru/learn_exercises.php?LN=1) <!-- сделано 0/156 -->
