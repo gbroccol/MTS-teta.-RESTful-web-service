@@ -100,5 +100,17 @@
    * [Антон Архипов — Эффективная работа с IDE(A)](https://www.youtube.com/watch?v=_rj7dx6c5R8)
 
 ## :bulb: Данные пользователей для тестирования
-   * username: Елена password: password (student) email: elena@gmail.com
+1. **Елена Романова (студент)**
+   * username: Елена 
+   * password: password
+   * email: elena@gmail.com
+1. **Анастасия Пчелина (администратор)**
+   * username: Анастасия 
+   * password: password
+   * email: anastasiya@gmail.com
+1. **Екатерина Шульман (преподаватель)**
+   * username: Екатерина 
+   * password: password
+   * email: ekaterina@gmail.com
+
 
