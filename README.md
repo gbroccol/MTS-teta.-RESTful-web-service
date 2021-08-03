@@ -99,3 +99,6 @@
 7. IDE
    * [Антон Архипов — Эффективная работа с IDE(A)](https://www.youtube.com/watch?v=_rj7dx6c5R8)
 
+## :bulb: Данные пользователей для тестирования
+   * username: Елена password: password (student) email: elena@gmail.com
+
