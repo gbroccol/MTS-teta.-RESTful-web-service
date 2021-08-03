@@ -71,6 +71,19 @@
 - [ ] Может блокировать (и разблокировывать), удалять пользователей — как учеников, так и преподавателей (по тем же причинам).
 - [ ] Подтверждает статус преподователей.
 
+## :bulb: Данные пользователей для тестирования
+1. **Елена Романова (студент)**
+   * username: Елена 
+   * password: password
+   * email: elena@gmail.com
+1. **Анастасия Пчелина (администратор)**
+   * username: Анастасия 
+   * password: password
+   * email: anastasiya@gmail.com
+1. **Екатерина Шульман (преподаватель)**
+   * username: Екатерина 
+   * password: password
+   * email: ekaterina@gmail.com
 
 ## :bulb: Useful links
 1. Архитектура приложения
@@ -98,19 +111,4 @@
    * [Spring Security Reference](https://docs.spring.io/spring-security/site/docs/4.2.3.RELEASE/reference/htmlsingle/)
 7. IDE
    * [Антон Архипов — Эффективная работа с IDE(A)](https://www.youtube.com/watch?v=_rj7dx6c5R8)
-
-## :bulb: Данные пользователей для тестирования
-1. **Елена Романова (студент)**
-   * username: Елена 
-   * password: password
-   * email: elena@gmail.com
-1. **Анастасия Пчелина (администратор)**
-   * username: Анастасия 
-   * password: password
-   * email: anastasiya@gmail.com
-1. **Екатерина Шульман (преподаватель)**
-   * username: Екатерина 
-   * password: password
-   * email: ekaterina@gmail.com
-
 
