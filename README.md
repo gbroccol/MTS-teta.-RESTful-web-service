@@ -3,7 +3,7 @@
 <!-- ## Запуск:
 1. http://127.0.0.1:8080/course -->
 
-## :bulb: Стек:
+## :bulb: Стек
 - [x] Java
 - [x] Spring Framework 
 - [x] Spring Boot
@@ -21,7 +21,7 @@
 ##  :bulb: Цель
 разработать образовательную платформу (как, например, Coursera, edX, Udacity, etc.)
 
-## :bulb: Задачи:
+## :bulb: Задачи
 
 ### :small_red_triangle_down: Три группы пользователей с разными use-case'ами взаимодействия с платформой:
 
