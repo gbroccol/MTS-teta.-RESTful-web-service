@@ -3,7 +3,7 @@
 <!-- ## Запуск:
 1. http://127.0.0.1:8080/course -->
 
-## :bulb: Технический стек:
+## :bulb: Стек:
 - [x] Java
 - [x] Spring Framework 
 - [x] Spring Boot
